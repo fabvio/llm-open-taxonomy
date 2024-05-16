@@ -73,13 +73,18 @@
           {% assign license = item[category][type][field].license %}
           {% assign code_data_class = "" %}
           {% if value == 1 or value == 2 or value == 3 or value == 4 or value == 5 %}
-            {% if type == 'code' %}
-              {% assign code_data_class = "C" %}
-            {% elsif type == 'data' %}
-              {% assign code_data_class = "D" %}
-            {% endif %}
+            {% assign color-code = value %}
+              {% if type == 'code' %}
+                {% assign code_data_class = "C" %}
+              {% elsif type == 'data' %}
+                {% assign code_data_class = "D" %}
+              {% endif %}
+          {% elsif item_value contains 'N/A' %}
+            {% assign color-code = 'NA' %}
+          {% else %}
+            {% assign color-code = 'unknown' %}
           {% endif %}
-          <td class="noborder-right taxonomy-cell" style="background-color: {{ value | colorize }}">
+          <td class="noborder-right taxonomy-cell bg-color-{{ color-code }}">
             {{ code_data_class }}{{ value }}
             {% if license %}
             <br>
