@@ -6,6 +6,7 @@
 <thead>
   <tr>
     <th rowspan="3" class="border-taxonomy border-right, first-th" data-sortable="true">Model</th>
+    <th rowspan="3" class="border-taxonomy border-right, first-th" data-sortable="true">Release</th>
     <th colspan="6" class="border-taxonomy border-right">(1) Training</th>
     <th colspan="4" class="border-taxonomy border-right">(2) Evaluation<br></th>
     <th colspan="2" class="border-taxonomy border-right">(3) Deployment</th>
@@ -38,9 +39,29 @@
 {% for item in site.llms %}
 <tr>
   <td>
+    {% if item.link %}
+    <a href="{{item.link}}" target="_blank">{{item.title}}</a>
+    {% else %}
     {{ item.title }}
+    {% endif %}
   </td>
+  <td>
+    {% if item.release %}
+    {% assign month = item.release.month | plus: 0 %}
+    {% assign year = item.release.year | plus: 0 %}
 
+    <!-- Assuming the day is the first of the month -->
+    {% assign date_string = year | append: "-" | append: month | append: "-01" %}
+    {% assign date_string_viz = month | append: "-" | append: year %}
+    {% assign date = date_string | date: "%s" %}
+    {% assign milliseconds = date | times: 1000 %}
+    <span style="display:none">{{ milliseconds }}</span>{{date_string_viz}}
+    {% else %}
+    Unknown
+    {% endif %}
+
+
+  </td>
     {% assign hierarchy = site.data.hierarchy %}
     {% for l_1 in hierarchy %}
       {% assign category = l_1[0] %}
@@ -77,3 +98,28 @@
 {%- else -%}
 There is an error parsing the table data.
 {%- endif %}
+
+<script>
+function dateToNumber(month, year) {
+    // Create a Date object with the given month and year
+    const date = new Date(year, month - 1); // JavaScript Date months are 0-indexed
+    // Convert the Date object to a number
+    const timeValue = date.getTime();
+    return timeValue;
+}
+
+function formatMonthYear(month, year) {
+    const monthNames = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+
+    // Ensure the month number is valid (1-12)
+    if (month < 1 || month > 12) {
+        throw new Error("Invalid month number");
+    }
+
+    const monthName = monthNames[month - 1];
+    return `${monthName}, ${year}`;
+}
+</script>

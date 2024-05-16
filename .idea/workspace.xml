@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ce3739-35d3-4456-885c-07203f439959" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/hierarchy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/llm-taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/llm-taxonomy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_llms/anthropic-175b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/anthropic-175b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/anthropic-lm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/anthropic-lm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/bloom.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/bloom.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/cerebras-gpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/cerebras-gpt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/chinchilla.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/chinchilla.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/claude-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/claude-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/claude.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/claude.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/codet5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/codet5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/command-r+.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/command-r+.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/command-r.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/command-r.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/dbrx.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/dbrx.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/ernie-3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/ernie-3.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/fairseq-dense.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/fairseq-dense.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/falcon.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/falcon.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gemini.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gemini.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/glam.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/glam.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/glm-130b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/glm-130b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gopher.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gopher.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-3.5-turbo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-3.5-turbo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-j-6b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-j-6b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-neo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-neo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/gpt-neox-20b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-neox-20b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/grok-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/grok-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/jamba.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/jamba.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/lamda.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/lamda.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/llama-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/llama-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/llama-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/llama-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/llama.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/llama.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/megatron-turing.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/megatron-turing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/mistral-7b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/mistral-7b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/mt5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/mt5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/openllama.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/openllama.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/opt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/opt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/palm-2-foundation-model-only.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/palm-2-foundation-model-only.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/palm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/palm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/phi-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/phi-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/polycoder.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/polycoder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/pythia.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/pythia.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/stable-lm-base-alpha-base-alpha-tuned.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/stable-lm-base-alpha-base-alpha-tuned.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/t5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/t5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/ul2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/ul2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms/xglm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/xglm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/anthropic-lm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/anthropic-lm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/chinchilla.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/chinchilla.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/code-t5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/ernie-30.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/fairseq-dense.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/fairseq-dense.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/glam.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/glam.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/gopher.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/gopher.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/gpt-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-j-6b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/gpt-j-6b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-neo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/gpt-neo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-neox-20b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/gpt-neox-20b.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/gpt3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/lamda.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/lamda.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/megatron-turin.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/mt5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/mt5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/polycoder.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/polycoder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/t5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/t5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_llms_old/xglm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms_old/xglm.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +55,7 @@
       <window_info anchor="bottom" id="File Transfer" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Problems View" order="5" weight="0.3298913" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3298913" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Services" order="8" />
       <window_info anchor="bottom" id="Dependency Checker" order="9" />
